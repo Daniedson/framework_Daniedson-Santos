@@ -17,7 +17,7 @@
 
 		</div>
 		<div class="col-sm-3">
-			<a href="<?=base_url('funcionarios/add')?>" class="btn btn-primary pull-right h2">Novo Funcionarios</a>
+			<a href="<?=base_url('funcionarios/add')?>" class="btn btn-primary pull-right h2">Novo Funcionario</a>
 		</div>
 	</div> <!-- /#top -->
 
