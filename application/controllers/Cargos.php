@@ -7,10 +7,21 @@ class Cargos extends Controller{
                 $this->load->native_helper('URLHelper');
 	}
 
-	public function index(){
+	 public function index(){
 
-		$this->render('index');
+            $this->render('cargos/index');
 	}
+
+        public function add(){
+            //função que carrega a view
+            $this->render('cargos/add');
+        }
+        public function edit(){
+            $this->render('cargos/edit');
+        }
+        public function delete(){
+
+        }
 }
 
 ?>

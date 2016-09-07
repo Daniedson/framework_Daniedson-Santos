@@ -7,10 +7,21 @@ class Pedidos extends Controller{
                 $this->load->native_helper('URLHelper');
 	}
 
-	public function index(){
+        public function index(){
 
-		$this->render('index');
+            $this->render('pedidos/index');
 	}
+
+        public function add(){
+            //função que carrega a view
+            $this->render('pedidos/add');
+        }
+        public function edit(){
+            $this->render('pedidos/edit');
+        }
+        public function delete(){
+
+        }
 }
 
 ?>

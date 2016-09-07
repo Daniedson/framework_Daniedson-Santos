@@ -2,7 +2,7 @@
 
  	<div id="top" class="row">
 		<div class="col-sm-3">
-			<h2>Endereços</h2>
+			<h2>Usuários</h2>
 		</div>
 		<div class="col-sm-6">
 
@@ -17,7 +17,7 @@
 
 		</div>
 		<div class="col-sm-3">
-			<a href="<?=base_url('funcionarios/add')?>" class="btn btn-primary pull-right h2">Novo Funcionário</a>
+			<a href="<?=base_url('clientes/add')?>" class="btn btn-primary pull-right h2">Novo Cliente</a>
 		</div>
 	</div> <!-- /#top -->
 

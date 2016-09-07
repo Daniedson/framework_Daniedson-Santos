@@ -7,10 +7,21 @@ class Categorias extends Controller{
                 $this->load->native_helper('URLHelper');
 	}
 
-	public function index(){
+        public function index(){
 
-		$this->render('index');
+            $this->render('categorias/index');
 	}
+
+        public function add(){
+            //função que carrega a view
+            $this->render('categorias/add');
+        }
+        public function edit(){
+            $this->render('categorias/edit');
+        }
+        public function delete(){
+
+        }
 }
 
 ?>
