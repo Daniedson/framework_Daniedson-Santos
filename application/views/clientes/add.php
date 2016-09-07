@@ -1,6 +1,6 @@
 <div id="main" class="container-fluid">
 
-  <h3 class="page-header">Adicionar Item</h3>
+  <h3 class="page-header">Adicionar um Cliente</h3>
 
   <form action="<?=base_url(clientes/add)?>" method="post">
   	<div class="row">

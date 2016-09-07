@@ -9,7 +9,7 @@ class Usuarios extends Controller{
 
 	public function index(){
 
-		$this->render('usuarios/index');
+            $this->render('usuarios/index');
 	}
 
         public function add(){
