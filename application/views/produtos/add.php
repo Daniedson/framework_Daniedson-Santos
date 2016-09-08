@@ -1,14 +1,23 @@
 <div id="main" class="container-fluid">
 
-  <h3 class="page-header">Adicionar Item</h3>
+  <h3 class="page-header">Adicionar Produtos</h3>
 
   <form action="<?=base_url(produtos/add)?>" method="post">
   	<div class="row">
   	  <div class="form-group col-md-4">
-  	  	<label for="exampleInputEmail1">Campo Um</label>
+  	  	<label for="exampleInputEmail1">Nome Produto</label>
+  	  	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o nome">
+          </div>
+  	  <div class="form-group col-md-4">
+  	  	<label for="exampleInputEmail1">Descrição</label>
+  	  	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite a descrição">
+          </div>
+  	  <div class="form-group col-md-4">
+  	  	<label for="exampleInputEmail1">Valor</label>
   	  	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
           </div>
-	</div>
+
+        </div>
 	<hr />
 
 	<div class="row">
