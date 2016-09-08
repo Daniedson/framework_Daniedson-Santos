@@ -39,7 +39,7 @@
                             foreach ($this->data as $cargos){
                             $v = 'cargos/viewSimples/'.$cargos['id'];
                             $e = 'cargos/editar/'.$cargos['id'];
-                            $d = 'cargos/delete'.$cargos['id'];
+                            $d = 'cargos/delete/'.$cargos['id'];
                                echo "
                                <tr>
 					<td>".$cargos['id']."</td>
