@@ -1,28 +1,28 @@
 <div id="main" class="container-fluid">
 
-  <h3 class="page-header">Adicionar Funcionário</h3>
+  <h3 class="page-header">Adicionar um Funcionário</h3>
 
-  <form action="<?=base_url(funcionarios/add)?>" method="post">
+  <form action="<?=base_url('funcionarios/salvar')?>" method="post">
   	<div class="row">
-  	  <div class="form-group col-md-4">
-  	  	<label for="exampleInputEmail1">Nome</label>
-  	  	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o nome">
+          <div class="form-group col-md-4">
+  	  	<label for="nome">Nome</label>
+  	  	<input type="text" name="nome" class="form-control" id="nome" placeholder="Digite o Nome">
           </div>
-  	  <div class="form-group col-md-4">
-  	  	<label for="exampleInputEmail1">RG ou CPF</label>
-  	  	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o RG ou CPF">
+          <div class="form-group col-md-4">
+  	  	<label for="entrada">Entrada</label>
+  	  	<input type="text" name="entrada" class="form-control" id="entrada" placeholder="Digite a Entrada">
           </div>
-  	  <div class="form-group col-md-4">
-  	  	<label for="exampleInputEmail1">Telefone</label>
-  	  	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o telefone">
+          <div class="form-group col-md-4">
+  	  	<label for="telefone">Telefone</label>
+  	  	<input type="text" name="telefone" class="form-control" id="telefone" placeholder="Digite o Telefone">
           </div>
-        </div>
-	<hr />
+	</div>
+	<hr/>
 
 	<div class="row">
 	  <div class="col-md-12">
-	  	<button type="submit" class="btn btn-primary">Salvar</button>
-		<a href="template.html" class="btn btn-default">Cancelar</a>
+	  	<button type="submit" class="btn btn-primary">Salvar Funcionário</button>
+		<a href="<?=base_url('funcionarios/index')?>" class="btn btn-default">Cancelar</a>
 	  </div>
 	</div>
 
