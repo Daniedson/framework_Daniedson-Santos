@@ -9,16 +9,28 @@
   	  	<input type="text" name="cep" class="form-control" id="cep" placeholder="Digite o CPF">
           </div>
           <div class="form-group col-md-4">
-  	  	<label for="salario">Salário</label>
-  	  	<input type="text" name="salario" class="form-control" id="salario" placeholder="Digite o Salário">
+  	  	<label for="logradouro">Logradouro</label>
+  	  	<input type="text" name="logradouro" class="form-control" id="logradouro" placeholder="Digite o logradouro">
+          </div>
+          <div class="form-group col-md-4">
+  	  	<label for="bairro">Bairro</label>
+  	  	<input type="text" name="bairro" class="form-control" id="bairro" placeholder="Digite o bairro">
+          </div>
+          <div class="form-group col-md-4">
+  	  	<label for="cidade">Cidade</label>
+  	  	<input type="text" name="cidade" class="form-control" id="cidade" placeholder="Digite a Cidade">
+          </div>
+          <div class="form-group col-md-4">
+  	  	<label for="estado">Estado</label>
+  	  	<input type="text" name="estado" class="form-control" id="estado" placeholder="Digite o Estado">
           </div>
 	</div>
 	<hr/>
 
 	<div class="row">
 	  <div class="col-md-12">
-	  	<button type="submit" class="btn btn-primary">Salvar Cargo</button>
-		<a href="<?=base_url('cargos/index')?>" class="btn btn-default">Cancelar</a>
+	  	<button type="submit" class="btn btn-primary">Salvar Endereço</button>
+		<a href="<?=base_url('enderecos/index')?>" class="btn btn-default">Cancelar</a>
 	  </div>
 	</div>
 

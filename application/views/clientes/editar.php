@@ -2,7 +2,7 @@
 
   <h3 class="page-header">Editar Cliente</h3>
 
-  <form action="<?=  base_url('clientes/atualizar')?>" method="post">
+  <form action="<?= base_url('clientes/atualizar')?>" method="post">
   	<div class="row">
   	  <div class="form-group col-md-4">
   	  	<label for="id">ID</label>
