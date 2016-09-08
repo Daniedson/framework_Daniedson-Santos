@@ -2,7 +2,7 @@
 
   <h3 class="page-header">Adicionar Categoria</h3>
 
-  <form action="<?=base_url(categorias/add)?>" method="post">
+  <form action="<?=base_url('categorias/salvar')?>" method="post">
   	<div class="row">
   	  <div class="form-group col-md-4">
   	  	<label for="exampleInputEmail1">Nome Categoria</label>
@@ -14,7 +14,7 @@
 	<div class="row">
 	  <div class="col-md-12">
 	  	<button type="submit" class="btn btn-primary">Salvar</button>
-		<a href="template.html" class="btn btn-default">Cancelar</a>
+		<a href="<?=base_url('categorias/index')?>" class="btn btn-default">Cancelar</a>
 	  </div>
 	</div>
 
